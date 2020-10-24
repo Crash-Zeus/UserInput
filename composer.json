@@ -1,0 +1,12 @@
+{
+    "name": "crash/user-input",
+    "description": "Simple class for sanitize user's input post and get",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Crash-Zeus",
+            "email": "jonas.bertin49@gmail.com"
+        }
+    ],
+    "require": {}
+}
