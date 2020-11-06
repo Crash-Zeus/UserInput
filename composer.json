@@ -2,7 +2,7 @@
     "name": "timesz/user-input",
     "description": "Simple class for sanitize user's input post and get",
     "type": "library",
-    "version": "1.0.3",
+    "version": "1.0.0",
     "license": "MIT",
     "authors": [
         {
