@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Input;
+namespace UserInput;
 
 use Iterator;
 use Exception;

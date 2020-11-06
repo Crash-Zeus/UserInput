@@ -1,6 +1,8 @@
 {
-    "name": "crash/user-input",
+    "name": "timesz/user-input",
     "description": "Simple class for sanitize user's input post and get",
+    "type": "library",
+    "version": "1.0.3",
     "license": "MIT",
     "authors": [
         {
@@ -8,5 +10,12 @@
             "email": "jonas.bertin49@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "UserInput\\": "UserInput/"
+        }
+    }
 }
