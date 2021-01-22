@@ -2,7 +2,7 @@
     "name": "timesz/user-input",
     "description": "Simple class for sanitize user's input post and get",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "authors": [
         {
@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "php": "^7.3"
+        "php": "7.0 || ^8.0"
     },
     "autoload": {
         "psr-4": {
