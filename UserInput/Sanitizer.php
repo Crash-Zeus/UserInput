@@ -295,7 +295,7 @@ class Sanitizer implements Iterator {
      */
     private function cleanCacheData($name = null) {
         if ($name !== null) {
-            $ui = new ReflectionClass('Core\Input\UserInput');
+            $ui = new ReflectionClass('UserInput\UserInput');
             $transfos = $ui->getConstants();
             foreach ($transfos as $transfo) {
                 $varCode = $this->getVarCode($name, $transfo);
